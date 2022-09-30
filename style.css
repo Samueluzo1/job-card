@@ -1,0 +1,110 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: Arial, Helvetica, sans-serif;
+  color: #000;
+  line-height: 1;
+  background-color: rgb(215, 223, 223);
+}
+
+.face {
+  width: 800px;
+  margin: 100px auto;
+  background-color: #264653;
+  padding: 32px 48px 32px 86px;
+  border-radius: 10px;
+  position: relative;
+  display: flex;
+  align-items: center;
+  gap: 86px;
+}
+
+img {
+  height: 200px;
+  border-radius: 10px;
+  transform: scale(1.5); /* Enlarges IMG*/
+  box-shadow: 0 12px 24px rgba(0, 0, 2, 0.25);
+}
+
+.myself-text {
+  font-size: 18px;
+  font-weight: bold;
+  line-height: 1.5;
+  margin-bottom: 32px;
+  color: #c25fcf;
+}
+
+.myself-author {
+  font-size: 12px;
+  margin-bottom: 4px;
+  color: #c25fcf;
+}
+
+.myself-job {
+  font-size: 10px;
+  color: #c25fcf;
+}
+
+.button {
+  background-color: #fff;
+  border: none;
+  height: 40px;
+  width: 40px;
+  border-radius: 50%;
+  position: absolute;
+  box-shadow: 0 12px 24px rgba(0, 0, 2, 0.25);
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.button--left {
+  left: 0;
+  top: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.button--right {
+  right: 0;
+  top: 50%;
+  transform: translate(50%, -50%);
+}
+
+.button-legend {
+  height: 24px;
+  width: 24px;
+  stroke: #264653;
+}
+
+.dabb {
+  position: absolute;
+  left: 50%;
+  bottom: 0;
+  transform: translate(-50%, 32px);
+  display: flex;
+  gap: 12px;
+}
+
+.dab {
+  height: 12px;
+  width: 12px;
+  background-color: #fff;
+  border: 2px solid #264653;
+  border-radius: 50%;
+  cursor: pointer;
+}
+
+.dab--full {
+  background-color: #264653;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
